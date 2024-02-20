@@ -20,7 +20,7 @@ body {
 }
 
 .submitKnap {
-    background-color: #80BF8A;
+    background-color: #80BF8A !important;
     color: white;
 }
 
