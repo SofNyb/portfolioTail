@@ -16,7 +16,8 @@ body {
 
 .footer {
     background-color: #1E5927;
-    height: 10vh;
+    height: 15vh;
+    margin-top: 50px;
 }
 
 .submitKnap {
