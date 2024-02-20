@@ -13,7 +13,7 @@
 <body>
 
 <!--header -->
-<header class="bg-white">
+<header class="bg-white mb-5">
     <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div class="flex lg:flex-1">
             <a href="#" class="-m-1.5 p-1.5">
@@ -36,29 +36,37 @@
 </header>
 
 <!-- info card -->
-<div class="relative isolate px-6 pt-24 lg:px-8">
-    <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56 relative">
-        <div class="absolute left-10 top-0 right-0 bottom-0 overflow-hidden rounded-lg bg-white">
-            <img src="../images/SofieNybro.jpg" alt="Sofie Nybro" class="w-full h-full object-cover object-top">
-        </div>
-        <div class="relative z-10">
+<div class="container mx-auto bg-white rounded-lg">
+    <div class="flex items-center">
+        <!-- Tekstkolonne -->
+        <div class="w-1/2 p-4">
             <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Hej!</h1>
             <p class="mt-6 text-lg leading-8 text-gray-600">
-                Jeg er webudviklingsstuderende på Zealand i Roskilde, <br>
-                og jeg kan godt lide at hækle, spille klaver og ordne planter.</p>
-            <div class="mt-10">
+                Jeg er webudviklingsstuderende
+                på Zealand i Roskilde,
+                og jeg kan godt lide at hækle,
+                spille klaver og ordne planter.
+            </p>
+            <div class="mt-10 flex gap-x-6">
                 <a href="#contact" class="text-sm font-semibold leading-6 text-gray-900">Kontakt mig</a>
+            </div>
+        </div>
+
+        <!-- Billedkolonne -->
+        <div class="w-1/2 p-4">
+            <div class="h-full overflow-hidden rounded-lg bg-white aspect-w-16 aspect-h-9">
+                <img class="object-cover" src="../images/SofieNybro.jpg" alt="Sofie Nybro">
             </div>
         </div>
     </div>
 </div>
 
 <!-- Projekter -->
-<div class="px-6 py-24 sm:py-32 lg:px-8">
+<div class="px-6 py-1 sm:py-32 lg:px-8">
     <div  class="mx-auto mt-16 sm:mt-20">
             <div class="max-w-xl">
                 <div class="col-span-1 max-w-2xl">
-                    <h1 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl pb-2">Projekter</h1>
+                    <h1 class="ms-4 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl pb-2">Projekter</h1>
                 </div>
             </div>
         <div class="col-span-2 grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-1">
@@ -83,9 +91,9 @@
 </div>
 
 <!-- Kompetencer -->
-<div class="container mx-auto ms-2">
+<div class="container mx-auto">
     <div class="col-span-1 max-w-2xl">
-        <h1 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl pb-2">Kompetencer</h1>
+        <h1 class="mt-5 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl pb-2">Kompetencer</h1>
     </div>
 
     <div class="bg-white">
